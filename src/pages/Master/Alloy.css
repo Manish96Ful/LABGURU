@@ -1,0 +1,130 @@
+.header-container {
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    /* overflow-x: auto;
+    scroll-behavior: none; */
+}
+
+.page-title1 {
+    color: #00A3E0;
+}
+
+.add-button {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Description {
+    margin-left: 10px;
+}
+
+.Save-button {
+    background-color: #18A3E4 !important;
+    color: white !important;
+}
+
+.secondary-button {
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.login-form {
+    padding: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.required {
+    color: #dc3545;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 20px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 15px 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    background-color: #f8d7da;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
